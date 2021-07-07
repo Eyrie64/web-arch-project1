@@ -9,5 +9,5 @@ function login(event) {
     .then(() => {
       alert("Login successful!");
     })
-    .catch((error) => console.error(error.message));
+    .catch((error) => alert(error.message));
 }
