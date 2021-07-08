@@ -10,3 +10,5 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
+
+var baseURL = "http://127.0.0.1:5500";

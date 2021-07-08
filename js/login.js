@@ -8,6 +8,7 @@ function login(event) {
     .signInWithEmailAndPassword(email, password)
     .then(() => {
       alert("Login successful!");
+      window.location.replace(`${baseURL}/home.html`);
     })
     .catch((error) => alert(error.message));
 }
