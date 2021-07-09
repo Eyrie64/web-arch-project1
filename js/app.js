@@ -11,4 +11,4 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
-var baseURL = "http://127.0.0.1:5500";
+var baseURL = "https://eyrie64.github.io/web-arch-project1";
